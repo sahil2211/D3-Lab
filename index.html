@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Sahil Data D3 Lab </title>
+  <script src="bower_components\jQuery\dist\jquery.min.js"></script>
+  <script src="bower_components\d3\d3.min.js"></script>
+
+<meta charset="utf-8">
+<style>
+
+body { font: 12px Arial;}
+
+path { 
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+</style>
+
+  <!-- complete your HTML head here -->
+</head>
+<body>
+<h4 id="hovered"></h4>
+<div class="plot">
+  <svg class="chart"></svg>
+<script type="text/javascript" src="main.js">
+
+</script>
+
+</div>
+<div class="ui">
+  <div>
+    <label>X-Axis</label>
+    <select id="sel-x" class = "options">
+     <option> </option> 
+	  
+      
+    </select>
+
+
+
+    <label>Y-Axis</label>
+    <select id="sel-y" class = "options">
+	  <option></option>
+      
+    </select>
+  </div>
+  <div>
+    <input id="mpg-min" type="text" value="0" size="10">
+    <input id="mpg-max" type="text" value="30" size="10">
+    <button id="update">Query MPG</button>
+  </div>
+</div>
+</body>
+</html>
+

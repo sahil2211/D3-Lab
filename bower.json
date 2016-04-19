@@ -1,0 +1,22 @@
+{
+  "name": "Interactive_Scatter_Plot",
+  "homepage": "https://github.com/tailorfenil/BigDataLab_InteractiveScatterPlot_D3",
+  "authors": [
+    "tailorfenil <tailorfenil@gmail.com>"
+  ],
+  "description": "Made Interactive_Scatter_Plot using D3 and jquery for car.csv",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "^3.5.16",
+    "jQuery": "^2.2.3"
+  }
+}
